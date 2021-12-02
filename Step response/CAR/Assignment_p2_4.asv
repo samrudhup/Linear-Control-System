@@ -1,0 +1,9 @@
+time_exp=[0 10 13 25 30 42 53];
+speed_exp=[0 64.4 75.8 94.2 108.0 118.8 120];
+plot(time_exp,speed_exp);
+legend('y(t)');
+xlabel('t');
+hold on 
+G=tf(10,[1 2]);
+T=[-10:100]
+[Y,T]=step(G)
