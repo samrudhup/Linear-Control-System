@@ -1,0 +1,14 @@
+% A=[1 0 2; 0 1 -3; 0 1 0];
+% B=[ 1; 0; -1];
+% C=[0 2 -3; 0 -2 3];
+% x=rank(A)
+% y=rank(B)
+% z=rank(C)
+% CO=ctrb(A,B)
+% a=rank(CO)
+% OO=obsv(A,C)
+% b=rank(OO)
+AA=[ 1 0 0; 0 0 0; 0 0 -1]
+c=[ 10 2 5]
+OO=obsv(AA,c)
+b=rank(OO)
